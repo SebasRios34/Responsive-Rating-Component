@@ -1,0 +1,55 @@
+@media only screen and (min-device-width: 375px) and (max-device-width: 812px) and (-webkit-min-device-pixel-ratio: 3) {
+  /* Card Container Styles */
+  .card-container {
+    height: 400px;
+    width: 85%;
+    margin-top: 50px;
+  }
+
+  .star-container {
+    display: flex;
+    align-self: flex-start;
+    margin-top: 20px;
+    margin-left: 20px;
+  }
+
+  .description-container {
+    gap: 10px;
+
+    margin: 0 20px 0 20px;
+  }
+
+  .description-container h2 {
+    font-size: 30px;
+  }
+
+  .description-container p {
+    font-size: 12px;
+  }
+
+  /* Result Container */
+  .card-result-container {
+    height: 400px;
+    width: 85%;
+    margin-top: 50px;
+  }
+
+  .image-container {
+    height: 20%;
+  }
+
+  .display-result-container {
+    width: 62%;
+    height: 35px;
+    border-radius: 35px;
+    margin-bottom: 2px;
+  }
+
+  .description-result-container h2 {
+    font-size: 30px;
+  }
+
+  .description-result-container p {
+    font-size: 12px;
+  }
+}
